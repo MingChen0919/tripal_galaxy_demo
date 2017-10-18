@@ -21,15 +21,14 @@ startup
 
 ## Galaxy account
 
-We need an Galaxy account to connect the Tripal site to the Galaxy instance.
-
 The Galaxy instance should be available at URL: `your-jetstream-VM-ip-address`.
 
 Go to **Users->Register** and use the email `example@gmail.com` to register an account. This email has been registered
-as an admin user email.
+as an admin user email (see the command that we used to launch the Galaxy instance).
 
 After you register an account with the email and login with the account, you can go to **Users->Preferences->Manage API key->Create a new key** 
-to create an API key. This API key will be used by Tripal Galaxy module to connect to this Galaxy instance.
+to create an API key. If an API key already exists, you can use the existing one. If not, you will need to create one. 
+This API key together with the account user name will be used by Tripal Galaxy module to connect to this Galaxy instance.
 
 ## Import Galaxy workflows
 
@@ -48,6 +47,8 @@ We will use two workflows to demonstrate how to use the Tripal Galaxy module:
 sudo docker run -it --rm -p 80:80 mingchen0919/docker-tripal-v3 /bin/bash
 ```
 
+## Tripal Galaxy module
+
 * Install Tripal Galaxy module
 
 ``` 
@@ -56,11 +57,21 @@ cd /var/www/html/sites/all/modules
 mkdir tripal_extensions
 cd tripal_extensions
 git clone https://github.com/tripal/tripal_galaxy.git
+```
 
+* Install `blend4php` library
+
+The `blend4php` library is a dependency of the Tripal Galaxy module. It needs to be installed within Drupal's **libraries** directory.
+
+```
 ## install blend4php
 cd /var/www/html/sites/all/libraries
 git clone https://github.com/galaxyproject/blend4php.git
+```
 
+* Enable the module
+
+```
 ## enable tripal galaxy
 drush en tripal_galaxy -y
 ```
