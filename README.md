@@ -10,3 +10,6 @@ This repository is for demonstrating the [Tripal Galaxy](https://github.com/trip
     
 * Hisat2 alignment
     + **demo-data/GCF_000005845.2_ASM584v2_genomic.fna.fasta**: E. coli reference genome from [NCBI](ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/005/845/GCF_000005845.2_ASM584v2/GCF_000005845.2_ASM584v2_genomic.fna.gz)
+    
+# [Demo](https://github.com/MingChen0919/tripal_galaxy_demo/blob/master/tripal_galaxy_demo.md)
+
