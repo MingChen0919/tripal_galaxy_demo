@@ -98,8 +98,9 @@ Go to your tripal site, which should be available at the URL **your-jetstream-ip
 
 # Testing Workflows
 
-First, you need to download the [demo datasets](https://github.com/statonlab/tripal_galaxy_demo/tree/master/demo-data) to your local computer.
+First, download the [demo datasets](https://github.com/statonlab/tripal_galaxy_demo/tree/master/demo-data) to your local computer.
 
+(Maybe we need to demo how to edit the form title and labels for workflows here)
 
 ## wgcna-analysis
 
