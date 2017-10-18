@@ -32,7 +32,9 @@ This API key together with the account user name will be used by Tripal Galaxy m
 
 ## Import Galaxy workflows
 
-We will use two workflows to demonstrate how to use the Tripal Galaxy module:
+We will use two workflows to demonstrate how to use the Tripal Galaxy module. To import workflows into Galaxy, go to
+the Galaxy instance and click **Workflow->Upload or import workflow** and copy & paste a workflow URL to the input box 
+and then click **Import**. Below are URLs of two workflows we are going to use for this demo. 
 
 * hisat2 alignment for paired end reads: https://raw.githubusercontent.com/statonlab/dibbs/master/bdss-hisat2-alignment-pe(with-quality-control).ga
 * wgcna: https://raw.githubusercontent.com/statonlab/dibbs/master/wgcna-analysis.ga
