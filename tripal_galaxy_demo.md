@@ -98,4 +98,24 @@ Go to your tripal site, which should be available at the URL **your-jetstream-ip
 
 
 * wgcna-analysis
-* hisat2-alignment
+
+## hisat2-alignment
+
+* step 1: no input, click **Next Page**
+* step 2: reference genom, click **Upload Files** to upload the dataset `demo-data/GCF_000005845.2_ASM584v2_genomic.fna.fasta`
+* step 3:
+    + **SRR/DRR/ERR accessions of single end SRA**: input `ERR1748507`
+    + **SRR/DRR/ERR accessions of paired end SRA**: input `ERR1748507`
+    + all other fields use default. Click **Next Page**
+* step 4: use default, Click **Next Page**
+* step 5: use default, Click **Next Page**
+* step 6: use default, Click **Next Page**
+* step 7: use default, Click **Next Page**
+* step 8: 
+    + **Specify strand information**: select `Forward (FR)`
+    + all other fields use default, Click **Next Page**
+* step 9: use default, Click **Next Page**
+* step preview
+* submit
+
+
