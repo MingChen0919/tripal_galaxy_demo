@@ -7,7 +7,7 @@ installed. The docker image is built upon [this](https://github.com/bgruening/do
 
 * Launch a Jetstream VM with image https://use.jetstream-cloud.org/application/images/107
 
-* Login to Jetstream VM `ssh your-jetstream-id@jetstream-VM-ip-address` and launch a Docker Galaxy container within Docker image `mingchen0919/docker-galaxy-for-tripal-galaxy-demo`
+* Login to Jetstream VM `ssh your-jetstream-id@jetstream-VM-ip-address` and launch a Docker tripal container
 
 ```
 sudo docker run -it --rm -p 80:80 -p 8021:21 -p 8022:22  \
