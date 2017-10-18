@@ -96,8 +96,23 @@ Go to your tripal site, which should be available at the URL **your-jetstream-ip
 
 # Testing Workflows
 
+First, you need to download the [demo datasets](https://github.com/statonlab/tripal_galaxy_demo/tree/master/demo-data) to your local computer.
 
-* wgcna-analysis
+
+## wgcna-analysis
+
+* step 1: no input, click **Next Page**
+* step 2: expression data
+    + click **Upload Files** and upload the file `demo-data/expression_data.csv`
+    + click **Next Page**
+* step 3: trait data
+    + click **Upload Files** and upload the file `demo-data/trait_data.csv`
+    + click **Next Page**
+* step 4: use default, Click **Next Page**
+* step 5: use default, Click **Next Page**
+* step 6: use default, Click **Next Page**
+* step preview
+* submit
 
 ## hisat2-alignment
 
